@@ -1,0 +1,80 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Myriad Pro', 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: $grey-font;
+  background: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+input[type=text], input[type=button], button {
+  outline: none;
+  box-sizing: border-box;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.wrapper {
+  @include wrapper()
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  &__aic {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  &__aic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.arrow-up {
+  position: fixed;
+  bottom: 40px;
+  cursor: pointer;
+  right: 70px;
+  z-index: 781;
+  box-shadow: 0 6px 28px 9px rgba(185, 139, 54, 0.38);
+  @include md(right, 10px);
+}
+
+.bg-white {
+  background: $bg-white;
+}
+
+.md-show {
+  display: none;
+  @include md(display, block)
+}
+
+.md-hide {
+  @include md(display, none)
+}
+
+.sm-show {
+  display: none;
+  @include sm(display, block)
+}
+
+.sm-hide {
+  @include sm(display, none)
+}

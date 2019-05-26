@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="plugins/bxslider/jquery.bxslider.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="plugins/bxslider/jquery.bxslider.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Patsias</title>
+</head>
+<body>
+
+<!--HEADER-->
+<header id="header">
+    <div class="wrapper">
+        <div class="top-menu row__aic">
+            <div class="mobile-menu-toggle md-show">
+                <svg class="ham hamRotate ham-burger" viewBox="0 0 100 100" width="50"
+                     onclick="this.classList.toggle('active')">
+                    <path
+                            class="line top"
+                            d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"/>
+                    <path
+                            class="line middle"
+                            d="m 30,50 h 40"/>
+                    <path
+                            class="line bottom"
+                            d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"/>
+                </svg>
+            </div>
+            <div class="logo">
+                <a href="#"><img src="images/icon/logo.jpg" alt="Logo"></a>
+            </div>
+            <div class="row__aic md-hide">
+                <div class="schedule">
+                    <div class="row__aic">
+                        <img src="images/icon/icon-time.jpg" alt="График">
+                        <div class="col">
+                            <p>График роботы</p>
+                            <div class="time">Пн-пт 9-21 Сб 11-17</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="telephone">
+                    <div class="row__aic">
+                        <img src="images/icon/icon-tel.jpg" alt="График">
+                        <div class="col">
+                            <div class="tel">8 000 000-00-00</div>
+                            <p>Контактный телефон</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-white mob-menu">
+        <div class="wrapper">
+            <div class="bottom-menu row__aic">
+                <nav>
+                    <ul class="main-navigation">
+                        <li class="active"><a href="#">Главная</a></li>
+                        <li><a href="#">О компании</a></li>
+                        <li><a href="#">Недвижимость</a></li>
+                        <li><a href="#">Проекты</a></li>
+                        <li><a href="#">Жизнь на Кипре</a></li>
+                        <li><a href="#">Новости</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+                <ul class="choose-language">
+                    <li class="active"><a href="#">En</a>/</li>
+                    <li><a href="#">Ru</a></li>
+                </ul>
+                <div class="schedule md-show">
+                    <div class="row__aic">
+                        <img src="images/icon/icon-time.jpg" alt="График">
+                        <div class="col">
+                            <p>График роботы</p>
+                            <div class="time">Пн-пт 9-21 Сб 11-17</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="telephone md-show">
+                    <div class="row__aic">
+                        <img src="images/icon/icon-tel.jpg" alt="График">
+                        <div class="col">
+                            <div class="tel">8 000 000-00-00</div>
+                            <p>Контактный телефон</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!--END HEADER-->
+
+<!--BANNER-->
+<section id="banner">
+    <div class="wrapper">
+        <h1>Кипр</h1>
+        <p>Это просто сказочная страна для отдыха и жизни.</p>
+        <div class="description">
+            <p><span>Кипр</span> - это не большой остров с населением в 800 тыс человек и столицей в Никосии.</p>
+        </div>
+    </div>
+</section>
+<!--END BANNER-->
+
+<!--CONTENT-->
+<section id="content">
+    <div class="bg-white">
+        <div class="wrapper">
+            <h2 class="lines">Самые популярные города Кипра</h2>
+            <div class="blocks-city row">
+                <div class="one-block-city">
+                    <img src="images/img/city-1.jpg" alt="Айя-Напа">
+                    <div class="description">
+                        <div class="title-city">Айя-Напа</div>
+                        <p>
+                            Сюда приезжают основное число туристов, чтобы позагорать на пляжах с белым песком и получать
+                            удовольствие от бурной ночной жизни
+                        </p>
+                    </div>
+                </div>
+                <div class="one-block-city">
+                    <img src="images/img/city-2.jpg" alt="Пафос">
+                    <div class="description">
+                        <div class="title-city">Пафос</div>
+                        <p>
+                            Популярный курорт, особенно для любителей старины и археологических раскопок
+                        </p>
+                    </div>
+                </div>
+                <div class="one-block-city">
+                    <img src="images/img/city-3.jpg" alt="Лимассол">
+                    <div class="description">
+                        <div class="title-city">Лимассол</div>
+                        <p>
+                            Тут наши граждане предпочитают покупать недвижимость, оставаться жить, водить в школы детей
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--SLIDER PLACE-->
+            <div class="wrap-slider-place">
+                <div class="slider-place">
+                    <div class="slide">
+                        <img src="images/img/slide-place-1.jpg"
+                             title="Около Пафоса находится по легенде место рождения богини Афродиты.">
+                    </div>
+                    <div class="slide">
+                        <img src="images/img/slide-place-2.jpg"
+                             title="В Ларнаке находится монастырь, где похоронен Святой Лазарь, воскрешенный Иисусом Христом">
+                    </div>
+                    <div class="slide">
+                        <img src="images/img/slide-place-3.jpg"
+                             title="История Кипра богата и насыщенна, поэтому любознательные туристы найдут здесь много диковенных мест">
+                    </div>
+                </div>
+            </div>
+            <!--END SLIDER PLACE-->
+
+        </div>
+    </div>
+    <div class="wrapper">
+
+        <!--LARNACA-->
+        <div class="larnaca row">
+            <div class="wrap-slider-larnaca">
+                <div class="slider-larnaca">
+                    <div class="slide">
+                        <img src="images/img/slide-larnaca-1.jpg" alt="Ларнака">
+                    </div>
+                    <div class="slide">
+                        <img src="images/img/slide-larnaca-2.jpg" alt="Ларнака">
+                    </div>
+                    <div class="slide">
+                        <img src="images/img/slide-larnaca-3.jpg" alt="Ларнака">
+                    </div>
+                    <div class="slide">
+                        <img src="images/img/slide-larnaca-4.jpg" alt="Ларнака">
+                    </div>
+                    <div class="slide">
+                        <img src="images/img/slide-larnaca-5.jpg" alt="Ларнака">
+                    </div>
+                </div>
+            </div>
+            <div class="description">
+                <h2 class="lines">
+                    Почему выбирают ларнаку ?
+                </h2>
+                <p>
+                    Семейный город с отличными возможностями для обучения. Как третий по величине город на острове
+                    Кипр, Ларнака предоставляет все услуги и удобства, необходимые для приятного семейного образа
+                    жизни.
+                </p>
+            </div>
+        </div>
+        <!--END LARNACA-->
+
+        <!--OPPORTUNITIES-->
+        <div class="opportunities">
+            <p>Ларнака предлагает</p>
+            <h2>
+                Различные <span class="bold">образовательные<br> возможности</span> для ваших детей
+            </h2>
+            <div class="wrap-slider-opportunities">
+                <div class="slider-opportunities">
+                    <div class="slide first">
+                        <img src="images/img/slide-opportunities-1.jpg" alt="Обучение">
+                    </div>
+                    <div class="slide second">
+                        <img src="images/img/slide-opportunities-2.jpg" alt="Активный отдых">
+                    </div>
+                    <div class="slide third">
+                        <img src="images/img/slide-opportunities-3.jpg" alt="Спорт">
+                    </div>
+                </div>
+                <div class="description">
+                    Несколько частных школ, говорящих по-английски, с высокими стандартами и замечательными
+                    достижениями, которые тщательно готовят студентов к поступлению в международные колледжи и
+                    университеты по всему миру.
+                </div>
+            </div>
+        </div>
+        <!--END OPPORTUNITIES-->
+
+    </div>
+    <div class="bg-white">
+        <div class="wrapper">
+
+            <!--INFORMATION-->
+            <div class="information">
+                <h2 class="bold">
+                    В дополнение к своим культурным и историческим чудесам, Ларнака обладает множеством природных
+                    красот.
+                </h2>
+                <div class="information-block">
+                    <div class="row">
+                        <div class="col">
+                            <img src="images/img/img-inf-1.jpg" alt="Пляж">
+                            <div class="bd-left offset-top">
+                                <p>
+                                    Жители Ларнаки имеют возможность посетить и насладиться многими
+                                    достопримечательностями
+                                    и
+                                    памятниками как внутри, так и за пределами города: византийская церковь Святого
+                                    Лазаря,
+                                    датируемая 890 годом н.э.; Монастырь Ставровуни, построенный святой Еленой, матерью
+                                    Константина Великого, в 330 году н.э. и в котором размещен фрагмент Святого Креста
+                                    Иисуса,
+                                    который был заложен там самой Святой Еленой. Хала-султан Текке, или мечеть
+                                    Умм-Харам,
+                                    одна
+                                    из самых священных мусульманский святынь; и набережная пальмы вдоль главной
+                                    набережной
+                                    Ларнаки.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="bd-left order-reverse offset-top-md">
+                                <p>
+                                    Четыре из пляжей города получили награду международного синего флага за качество их
+                                    вод
+                                    и
+                                    услуг.
+                                    <br>
+                                    <br>
+                                    Немного дальше в глубь страны, Соленое озеро Ларнаки (Алики) предоставляет дом для
+                                    розовых
+                                    фламинго, которые каждую зиму посещяют Кипр.
+                                    <br>
+                                    <br>
+                                    В нескольких минутах езды от города вы можете найти множество живописных деревень,
+                                    которые
+                                    по-прежнему сохраняют более старый образ жизни и предлагают тихое отступление от
+                                    города.
+                                </p>
+                            </div>
+                            <img src="images/img/img-inf-2.jpg" alt="Город" class="offset-top">
+                        </div>
+                    </div>
+                    <div class="subtitle">
+                        Ларнака - город теплых и приветливых людей, солнечная погода и множество исторических и
+                        культурных
+                        достопримечательностей и памятников.
+                    </div>
+                    <p>
+                        Ларнака также входит в число самых высоких городов мира для обеспечения безопасности, что делает
+                        его
+                        идеальным местом для жизни, создания семьи или проведения отпуска. В Средиземноморском климате
+                        или
+                        сухом летнем субтропике Кипр каждый день получает 326 солнечных дней и занимает самое солнечное
+                        место в Европе.
+                    </p>
+                </div>
+            </div>
+            <!--END INFORMATION-->
+
+            <img src="images/icon/arrow-up.jpg" alt="" class="arrow-up">
+        </div>
+    </div>
+    </div>
+</section>
+<!--END CONTENT-->
+
+<!--FOOTER-->
+<footer id="footer">
+    <div class="wrapper">
+        <div class="top-footer row">
+            <div class="col">
+                <div class="logo">
+                    <img src="images/icon/logo.jpg" alt="Logo">
+                </div>
+                <div class="block">
+                    <p class="small">Телефоны:</p>
+                    <p class="tel">8 000 000-00-00</p>
+                    <p class="tel">8 000 000-00-00</p>
+                </div>
+                <div class="block">
+                    <p class="small">Адрес:</p>
+                    <p>Уличная улица 3, Ланарка, Кипр</p>
+                </div>
+                <div class="block">
+                    <p class="small">Email::</p>
+                    <p><a href="mailto:info@patsiasdevelopers.com">info@patsiasdevelopers.com</a></p>
+                </div>
+            </div>
+            <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48369.51887027071!2d-73.99284885384508!3d40.73793663903388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2599951661b85%3A0x9f19549951a90391!2sWebster+Hall!5e0!3m2!1sru!2sua!4v1558880720513!5m2!1sru!2sua"
+                        frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="bottom-footer row__aic">
+            <ul class="navigation row__aic md-hide">
+                <li><a href="#" class="active">Главная</a></li>
+                <li><a href="#">О компании</a></li>
+                <li><a href="#">Недвижимость</a></li>
+                <li><a href="#">Проекты</a></li>
+                <li><a href="#">Жизнь на Кипре</a></li>
+                <li><a href="#">Новости</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+            <div class="copyright">
+                Patsias 2017©
+            </div>
+        </div>
+    </div>
+</footer>
+<!--END FOOTER-->
+
+</body>
+</html>

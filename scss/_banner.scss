@@ -1,0 +1,44 @@
+#banner {
+  background: url(../images/img/bg-banner.jpg) center;
+  background-size: cover;
+  height: 543px;
+  position: relative;
+  h1 {
+    padding-top: 310px;
+    font-size: 100px;
+    letter-spacing: .3em;
+    color: $white-font;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-shadow: 0 4px 7px rgba(0, 0, 0, 0.69);
+    @include sm(padding-top, 120px);
+    @include xs(font-size, 80px);
+    + p {
+      color: $white-font;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      padding-left: 6px;
+      line-height: 24px;
+    }
+  }
+  .description {
+    margin-top: 37px;
+    border-top: 5px solid $orange;
+    padding: 40px 132px 40px 66px;
+    box-sizing: border-box;
+    background: $bg-white;
+    box-shadow: -11px 0 100px -7px rgba(0, 0, 0, 0.52);
+    width: 100%;
+    max-width: 555px;
+    @include xs(padding, 40px 30px);
+    p {
+      font-size: 18px;
+      line-height: 30px;
+      span {
+        text-transform: uppercase;
+        color: $orange;
+      }
+    }
+  }
+}
